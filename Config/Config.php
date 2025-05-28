@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', 'https://'.getenv('FIREPLOY_HOST'));
+define('BASE_URL', 'https://'.getenv('FIREPLOY_HOST').'/');
 define('HOST', getenv('DB_HOST') ?: 'localhost');
 define('USER', getenv('DB_USER') ?: 'root');
 define('PASS', getenv('DB_PASSWORD') ?: '');
